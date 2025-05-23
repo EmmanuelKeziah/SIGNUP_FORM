@@ -1,0 +1,76 @@
+
+body{
+    background: url("image3.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;   
+}
+
+
+background{
+    url: ("image3.jpg")
+
+}
+
+/* padding helps to align/adjust our content on the webpage. margin-top adjusts the margin at the top, similar to margin-left, right,and bottom. margin 0,auto helps the content to adjust itself to the size of your screen.*/
+.SignUpBox{
+    background: rgba(44, 61, 80, 0.8);
+    padding: 40px;
+    width: 200px;
+    margin-top: 90px;
+    margin-left: 200px;
+    margin: 0 auto;
+}
+
+/* to style your form element, you have to make the form declaration */
+form{
+    width: 200px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+/* for a transparent input background, you can say: "background: transparent;" or background: rgba (0,0,0,0) */
+input{
+    width: 200px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 3px solid green;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 2px 0;
+    transition: border 0.5s ;
+    outline: none;
+    height: 30px;
+    color: white;
+}
+
+/* the cursor: pointer shows how our cursor will apear on the webpage */
+button{
+    font-size: 15px;
+    border: none;
+    width: 150px;
+    color: gray;
+    padding: 5px 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+ /* to apply hover effect to our button. Ensure there is no space btw button and : for it to work */
+ button:hover{
+    background: blue;
+    color: white;
+ }
+
+ .My{
+    color: goldenrod;
+ }
+ 
+ a:hover{color: gold;}
+ .sign{
+    color: white;
+ }
+ ::placeholder{
+    color: whitesmoke;
+    opacity: 0.6;
+ }
