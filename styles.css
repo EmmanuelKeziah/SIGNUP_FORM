@@ -12,7 +12,6 @@ background{
 
 }
 
-/* padding helps to align/adjust our content on the webpage. margin-top adjusts the margin at the top, similar to margin-left, right,and bottom. margin 0,auto helps the content to adjust itself to the size of your screen.*/
 .SignUpBox{
     background: rgba(44, 61, 80, 0.8);
     padding: 40px;
@@ -22,14 +21,12 @@ background{
     margin: 0 auto;
 }
 
-/* to style your form element, you have to make the form declaration */
 form{
     width: 200px;
     text-align: center;
     margin-top: -20px;
 }
 
-/* for a transparent input background, you can say: "background: transparent;" or background: rgba (0,0,0,0) */
 input{
     width: 200px;
     text-align: center;
@@ -45,7 +42,6 @@ input{
     color: white;
 }
 
-/* the cursor: pointer shows how our cursor will apear on the webpage */
 button{
     font-size: 15px;
     border: none;
@@ -56,8 +52,7 @@ button{
     cursor: pointer;
 }
 
- /* to apply hover effect to our button. Ensure there is no space btw button and : for it to work */
- button:hover{
+button:hover{
     background: blue;
     color: white;
  }
